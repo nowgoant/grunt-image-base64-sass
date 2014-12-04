@@ -8,9 +8,10 @@
     "email": "robin@radic.nl"
   },
   "files": [
-    "image_base64_sass.js"
+    "tasks",
+    "LICENSE-MIT",
+    "README.md"
   ],
-  "main": "image_base64_sass.js",
   "repository": {
     "type": "git",
     "url": "https://robinradic@github.com/robinradic/grunt-image-base64-sass"
