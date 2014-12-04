@@ -1,0 +1,38 @@
+{
+  "name": "grunt-image-base64-sass",
+  "description": "Reads images then writes its base64 string to scss file",
+  "version": "0.1.0",
+  "homepage": "https://github.com/robinradic/grunt-image-base64-sass",
+  "author": {
+    "name": "Robin Radic",
+    "email": "robin@radic.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://robinradic@github.com/robinradic/grunt-image-base64-sass"
+  },
+  "bugs": {
+    "url": "https://github.com/robinradic/wow-raid-icons/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/robinradic/wow-raid-icons/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "lodash": "^2.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
