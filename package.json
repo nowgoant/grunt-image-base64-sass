@@ -1,7 +1,7 @@
 {
   "name": "grunt-image-base64-sass",
   "description": "Reads images then writes its base64 string to scss file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/robinradic/grunt-image-base64-sass",
   "author": {
     "name": "Robin Radic",
