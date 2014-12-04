@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     // Please see the Grunt documentation for more information regarding task
     // creation: http://gruntjs.com/creating-tasks
 
-    grunt.registerMultiTask('grunt-image-base64-sass', 'Reads images, writes base64 string to scss file', function () {
+    grunt.registerMultiTask('image_base64_sass', 'Reads images, writes base64 string to scss file', function () {
         var done = this.async();
         // Merge task-specific and/or target-specific options with these defaults.
         var options = this.options({
