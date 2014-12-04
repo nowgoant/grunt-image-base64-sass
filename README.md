@@ -1,6 +1,12 @@
-# grunt-image-base64-sass
+grunt-image-base64-sass
+=======================
+[![Build Status](https://secure.travis-ci.org/RobinRadic/grunt-image-base64-sass.svg?branch=master)](https://travis-ci.org/RobinRadic/grunt-image-base64-sass)
+[![GitHub version](https://badge.fury.io/gh/robinradic%2Fgrunt-image-base64-sass.svg)](http://badge.fury.io/gh/robinradic%2Fgrunt-image-base64-sass)
+[![Goto documentation](http://img.shields.io/badge/goto-documentation-orange.svg)](http://robinradic.github.io/projects/grunt-image-base64-sass)
+[![Goto repository](http://img.shields.io/badge/goto-repository-orange.svg)](https://github.com/robinradic/grunt-image-base64-sass)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://radic.mit-license.org)
 
-> Reads images, writes base64 string to scss file
+> Grunt images to sass/scss file variables with base64 string
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
