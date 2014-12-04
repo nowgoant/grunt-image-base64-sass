@@ -77,7 +77,7 @@ module.exports = function (grunt) {
 
         });
         var newFileContent = _.template(tpl, { files: templateData });
-        grunt.log.writeln(util.inspect(templateData));
+        //grunt.log.writeln(util.inspect(templateData));
         fs.writeFile(this.options().dest, newFileContent, function(err){
             if(err) throw err;
             grunt.log.writeln('File written');
