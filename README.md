@@ -34,7 +34,22 @@ grunt.initConfig({
                   options: {
                       dest: 'src/styles/_imagess.scss'
                   },
-                  files: [{src: 'src/images/raid-icons.jpg'}, {src: 'src/images/heroic.png'}]
+                  files: [
+                  {src: 'src/images/raid-icons.jpg'}, {src: 'src/images/heroic.png'}]
+              }
+          }
+});
+
+or
+
+grunt.initConfig({
+   image_base64_sass: {
+              build: {
+                  options: {
+                      dest: 'src/styles/_imagess.scss'
+                  },
+                  files: [
+                 {src: 'src/images/{,*/}*.{jpg,png,svg}'}]
               }
           }
 });
